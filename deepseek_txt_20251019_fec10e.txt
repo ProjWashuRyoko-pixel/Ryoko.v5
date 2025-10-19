@@ -1,0 +1,37 @@
+# Core dependencies
+numpy>=1.21.0
+pydantic>=1.9.0
+pyyaml>=6.0
+
+# Optional visualization
+matplotlib>=3.5.0
+plotly>=5.5.0
+seaborn>=0.11.0
+
+# Machine learning extensions
+scikit-learn>=1.0.0
+torch>=1.9.0
+transformers>=4.10.0
+
+# Web and API support
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic[email]>=1.9.0
+
+# Database support
+sqlalchemy>=1.4.0
+alembic>=1.7.0
+psycopg2-binary>=2.9.0
+
+# Monitoring and logging
+structlog>=21.1.0
+prometheus-client>=0.11.0
+
+# Testing and development
+pytest>=6.0
+pytest-cov>=2.0
+pytest-asyncio>=0.18.0
+black>=21.0
+flake8>=3.9
+mypy>=0.910
+pre-commit>=2.15
